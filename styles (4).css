@@ -1,0 +1,18 @@
+body {
+  font-family: 'Arial Black', sans-serif; /* Un font più "spaventoso" */
+  background-color: #f0f0f0; /* Grigio chiaro */
+  color: #333; /* Grigio scuro */
+}
+
+#titolo {
+  color: #000; /* Nero */
+}
+
+#immagineSpaventosa {
+  display: none; /* Inizialmente nascosta */
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  background-image: url('http://googleusercontent.com/image_generation_content/0'); /* URL dell'immagine generata */
+  background-size: cover;
+}
